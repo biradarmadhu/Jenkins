@@ -1,7 +1,7 @@
 node('slave-1') {
-    def ACCOUNT_ID = " 6190-7133-5692"
+    def ACCOUNT_ID = " 851271747310"
     def REGION = "us-east-2"
-    def GIT_URL = "https://github.com/biradarmadhu/customer.git"
+    def GIT_URL = "https://github.com/naveen-uppala/customer.git"
     def BRANCH  =  "main"
     def IMAGE_NAME = "customer"
     def IMAGE_TAG = "${currentBuild.number}"
